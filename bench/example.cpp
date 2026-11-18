@@ -3,12 +3,7 @@
 #include <vector>
 
 #include "Benchmark.h"
-#include "Allocator.h"
-#include "StackAllocator.h"
-#include "CAllocator.h"
-#include "LinearAllocator.h"
-#include "PoolAllocator.h"
-#include "FreeListAllocator.h"
+#include "../src/one.hpp"
 
 int main()
 {

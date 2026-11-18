@@ -1,7 +1,14 @@
 <a href='http://www.recurse.com' title='Made with love at the Recurse Center'><img src='https://cloud.githubusercontent.com/assets/2883345/11325206/336ea5f4-9150-11e5-9e90-d86ad31993d8.png' height='20px'/></a>
 
 
-this fork is designed to make it easier to use as a library, putting all headers into a single one, also remove depedency on the c++ runtime and library, to fit my c++ style (basically c + 4 or 5 features)
+this fork is designed to make it easier to use as a library, putting all headers into a single one,
+also remove depedency on the c++ runtime and library, to fit my c++ style (basically c + 4 or 5 features)
+
+with the one.cpp file in src directory, building the library is very easy, just run the build.sh
+command. it will generate liballoc.a static library, modify it according to your needs.
+
+to run the benchmarks instead, run bench.sh
+
 # Table of Contents
 &nbsp;[Introduction](https://github.com/mtrebi/memory-allocators#introduction)  <br/> 
 &nbsp;[Build instructions](https://github.com/mtrebi/memory-allocators#build-instructions)  <br/> 
